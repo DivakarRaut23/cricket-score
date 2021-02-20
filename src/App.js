@@ -1,7 +1,6 @@
 import React, {useEffect,useState} from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {Button ,Grid,Typography} from '@material-ui/core';
+import {Grid,Typography} from '@material-ui/core';
 import Navbar from './components/Navbar'
 import MyCard from './components/MyCard';
 import {getMatches} from './api/Api'
